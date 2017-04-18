@@ -24,7 +24,7 @@ class Dataset(object):
         self.Y_test = None
 
     def read(self, img_rows=IMAGE_SIZE_HEIGHT, img_cols=IMAGE_SIZE_WIDTH, img_channels=3, nb_classes=2):
-        images, labels = extract_data('./data/')
+        images, labels = extract_data('./data1/')
         # labels = np.reshape(labels, [-1])
 
         # numpy.reshape
